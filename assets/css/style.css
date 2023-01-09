@@ -19,7 +19,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.png") top right no-repeat;
+  background: #040404 url("../img/bg.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -94,7 +94,7 @@ h6 {
 
 #header h2 span {
   color: #fff;
-  border-bottom: 2px solid #18d26e;
+  border-bottom: 4px solid #04daf7;
   padding-bottom: 6px;
 }
 
@@ -356,6 +356,7 @@ section.section-show {
 section .container {
   background: rgba(0, 0, 0, 0.9);
   padding: 30px;
+  border-radius: 15px;
 }
 
 @media (max-width: 768px) {
@@ -692,6 +693,7 @@ section .container {
   background: rgba(204, 204, 204, 0.1);
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
+  border-radius: 15px;
 }
 
 .services .icon-box .icon {
@@ -728,22 +730,23 @@ section .container {
 
 .services .icon-box h4 {
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   font-size: 24px;
 }
 
 .services .icon-box h4 a {
-  color: #fff;
+  color: rgb(0, 112, 163);
 }
 
 .services .icon-box p {
   line-height: 24px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 14px;
-  margin-bottom: 0;
+  margin-bottom: auto;
 }
 
 .services .icon-box:hover {
-  background: #18d26e;
+  background: #4a4d4b;
   border-color: #18d26e;
 }
 
@@ -762,6 +765,24 @@ section .container {
 .services .icon-box:hover h4 a,
 .services .icon-box:hover p {
   color: #fff;
+}
+
+.services .icon-box button[type=submit] {
+  background: #18d26e;
+  border: 0;
+  padding: 5px 20px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+.services .icon-box button[type = submit] {
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.services .icon-box button[type=submit]:hover {
+  background: #106136;
 }
 
 /*--------------------------------------------------------------
@@ -1095,7 +1116,7 @@ section .container {
 
 .contact .php-email-form input,
 .contact .php-email-form textarea {
-  border-radius: 0;
+  border-radius: 15px;
   box-shadow: none;
   font-size: 14px;
   background: rgba(255, 255, 255, 0.08);
@@ -1135,11 +1156,11 @@ section .container {
   padding: 10px 30px;
   color: #fff;
   transition: 0.4s;
-  border-radius: 4px;
+  border-radius: 50px;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #15bb62;
+  background: #106136;
 }
 
 @-webkit-keyframes animate-loading {
