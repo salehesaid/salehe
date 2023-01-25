@@ -1,6 +1,8 @@
-Thanks for downloading this template!
-
+Thanks for visiting my GitHub ☺️!
+.
 Template Name: Personal
-Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Template URL: bit.ly/salehesaid 
+Author: Salehe Said
+License: bit.ly/salehesaid
+.
+Copyright ©️ Salehe Said 2023
